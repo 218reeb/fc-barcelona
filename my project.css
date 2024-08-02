@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('fc.png'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.items{
+    width: 100%;
+    height: 500px;
+    background-color:rgb(5, 5, 45) ;
+}
+.new_kits{
+    position:relative;
+    left: 45%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+*{
+    text-decoration: none;
+}
+marquee{
+    background-color:black; font-family: 'Courier New', Courier, monospace; height: 20px; font-size: medium;
+}
+.barlogo{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 5px;
+
+    
+}
+.navbar{
+    background: linear-gradient(45deg, red, blue);padding-left: 15px; padding-right: 15px;
+    
+
+}
+.navdiv{
+    display: flex; align-items: center; justify-content: space-between;
+    
+}
+.logo a{font-size:40px; font-weight: bold; color: white; position: relative; bottom: 5px; left:5px;
+}
+li{
+    list-style: none; display: inline-block;
+    
+
+}
+li a{
+    color:white; font-size: 18px; font-weight: bold;margin-right: 25px; 
+    
+
+
+}
+.button1{
+    background: red ; margin-left: 10px; border-radius: 10px; padding: 10px; width: 90px;
+}
+button a{
+    color: white; font-weight:bold; font-size: 15px;
+}
+
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: inherit;
+}
+
+.product {
+    background-color: rgba(126, 12, 12, 0.9);
+    border: 1px solid #310404;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 500px;
+
+    margin: 10px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+button {
+    background: linear-gradient(45deg, red, blue);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color:  rgba(126, 12, 12, 0.9);
+    min-height: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  footer h3 {
+    color: white;
+    font-size: 2rem;
+    padding-bottom: 10px;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid ;
+    width: 100%;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 1.5rem;
+  
+    color: white;
+    margin-bottom: 1rem;
+  }
+  
+  footer .icon {
+    color: white;
+    margin: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  footer .icon:hover {
+    color: var(--dark-purple);
+  }
